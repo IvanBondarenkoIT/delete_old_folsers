@@ -3,6 +3,7 @@ import shutil
 from datetime import datetime, timedelta
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QFileDialog, QTextEdit
 
+
 class FolderDeletionApp(QWidget):
     def __init__(self):
         super().__init__()
